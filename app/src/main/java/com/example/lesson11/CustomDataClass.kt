@@ -5,6 +5,6 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-class CustomDataClass (
+data class CustomDataClass (
     val title: String
 ):Parcelable
